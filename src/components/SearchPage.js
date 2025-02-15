@@ -378,7 +378,7 @@ const SearchPage = () => {
                     Zip Code: {perfectMatch.zip_code}
                   </Typography>
                 </Box>
-                <Button sx={{marginTop: '10px'}} onClick={() => setModalOpen(false)} variant='outlined' color='error'>close modal</Button>
+                <Button sx={{marginTop: 'auto'}} onClick={() => setModalOpen(false)} variant='outlined' color='error'>close modal</Button>
               </Box>
             </Modal>
           )}
