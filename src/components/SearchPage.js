@@ -21,7 +21,6 @@ import {
   ToggleButton,
   ToggleButtonGroup
 } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
 
 const SearchPage = () => {
   const navigate = useNavigate();
